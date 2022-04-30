@@ -71,7 +71,7 @@
 <html>
 <head>
 	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-
+	<link rel="stylesheet" href="styles/css/Popup.css">
 	<link rel="stylesheet" type="text/css" href="styles/global-styles.css" />
 	<link rel="stylesheet" type="text/css" href="styles/ddsmoothmenu/ddsmoothmenu.css" />
 	<link rel="stylesheet" type="text/css" href="javascript/jQuery/colorbox/colorbox.css" />
@@ -82,7 +82,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
 	<link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
-
+	
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<script src="javascript/jQuery/jquery.js"></script>
 	<script src="javascript/jQuery/colorbox/jquery.colorbox-min.js"></script>
 	<script src="javascript/ddsmoothmenu/ddsmoothmenu.js"></script>

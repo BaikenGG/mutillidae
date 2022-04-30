@@ -17,6 +17,8 @@
 ?>
 <link rel="stylesheet" href="styles/css/styles_index.css">
 
+
+
             <div class="row">
                 <div class="col-md-3">
                     <div class="portfolio-container">
@@ -131,19 +133,28 @@
                 <div class="col-md-3">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                            <a>
                                 <h2>Sugerencias y videos</h2>
                             </a>
-                            <a href="#">
+                            <a>
                                 <p>Haga click para más información</p>
                             </a>
                         </div>
-                        <img src="images/portfolio-02.jpg" class="img-fluid">
+                        <a id="open">
+                        <img src="images/portfolio-02.jpg" class="img-fluid"></a>
                     </div>
                 </div>
-               
+               <div id="contenedor" class="contenedor">
+  <div class="modal-f">
+    <h1>Sugerencias</h1>
+  <?php include_once (__ROOT__.'/includes/hints/hints-menu-wrapper.inc'); ?>
+    <button id="close">Cerrar</button>
+  </div>
+</div>
                 </div>
             </div>
             
         </div>
     </section>
+
+    <script src="javascript/Popup.js"></script>

@@ -101,7 +101,15 @@ a:hover { text-decoration: none; }
     position: absolute;
     bottom: 25px;
     left: 25px;
-    z-index: 9000;
+  
+}
+
+.portfolio-details-p {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index:9000; 
+  
 }
 
 .portfolio-details h2 {

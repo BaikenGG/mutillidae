@@ -61,17 +61,15 @@
 	}// end function onSubmitOfGeneratorForm(/*HTMLFormElement*/ theForm)
 </script>
 
-<div class="page-title">Password Generator</div>
+<div class="page-title" >Password Generator</div>
 
-<?php include_once (__ROOT__.'/includes/back-button.inc');?>
-<?php include_once (__ROOT__.'/includes/hints/hints-menu-wrapper.inc'); ?>
 
-<div id="id-generator-form-div">
+<div id="id-generator-form-div"  style="margin-top: 20;">
 	<form 	enctype="application/x-www-form-urlencoded" 
 			id="idGeneratorForm">
 		<table>
 			<tr>
-				<td class="form-header">Password Generator</td>
+				<td class="form-header" >Password Generator</td>
 			</tr>
 			<tr><td></td></tr>
 			<tr>
